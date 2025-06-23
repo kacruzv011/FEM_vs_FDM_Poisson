@@ -100,8 +100,8 @@ El análisis se realiza a través de los Jupyter Notebooks.
     jupyter lab
     ```
 3.  **Ejecuta los notebooks en el siguiente orden:**
-    *   **`Taller_OpenMP_Poisson/analisis_fdm.ipynb`**: Ejecutará el benchmark para FDM, generando `resultados_fdm.csv` y mostrando sus gráficas.
-    *   **`Poisson_FEM/analisis_fem.ipynb`**: Hará lo mismo para FEM, generando `resultados_fem.csv`.
+    *   **`Poisson_FDM/Automatizacion.ipynb`**: Ejecutará el benchmark para FDM, generando `resultados_fdm.csv` y mostrando sus gráficas.
+    *   **`Poisson_FEM/Automatizacion.ipynb`**: Hará lo mismo para FEM, generando `resultados_fem.csv`.
     *   **`comparacion_final.ipynb`**: Cargará los dos archivos CSV generados y creará las gráficas comparativas finales.
 
 ## 📈 Resumen de Resultados y Conclusiones
