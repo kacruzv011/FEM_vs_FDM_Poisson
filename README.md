@@ -9,7 +9,7 @@ El objetivo principal de este trabajo es doble:
 2.  **Analizar y comparar** el rendimiento y la escalabilidad de múltiples estrategias de paralelización (serial, paralelo estándar, `collapse`, `sections`, `schedule`, etc.) aplicadas a cada método.
 
 El proyecto está estructurado en dos sub-proyectos autocontenidos:
-*   `Taller_OpenMP_Poisson`: Contiene las implementaciones basadas en el **Método de Diferencias Finitas (FDM)**.
+*   `Poisson_FDM`: Contiene las implementaciones basadas en el **Método de Diferencias Finitas (FDM)**.
 *   `Poisson_FEM`: Contiene las implementaciones basadas en el **Método de Elementos Finitos (FEM)**.
 
 Todo el proceso, desde la compilación y ejecución de benchmarks hasta el análisis de datos y la visualización de resultados, está orquestado mediante Makefiles y Jupyter Notebooks para garantizar la **reproducibilidad** y la **eficiencia** del análisis.
